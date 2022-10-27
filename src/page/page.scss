@@ -1,0 +1,11 @@
+.page{
+    height: 500vh;
+    width: 100%;
+    background-color: #0A192F;
+    .content__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

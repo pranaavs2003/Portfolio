@@ -1,0 +1,102 @@
+.section1{
+    height: 75vh;
+    width: 70%;
+    //background-color: rgba(210, 105, 30, 0.304);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //margin-top: 8%;
+    margin-bottom: 16vh;
+    font-family: 'Montserrat', sans-serif;
+    @media screen and (max-width: 700px){
+        //margin-top: 5vh;
+        margin-bottom: 20vh;
+        width: 85%;
+        //background-color: rgba(222, 184, 135, 0.227);
+    }
+    @media screen and (min-width: 1000px){
+        //margin-top: 5%;
+        width: 70%;
+        //background-color: rgba(152, 222, 135, 0.178);
+    }
+    .text1{
+        font-size: 2.5vw;
+        font-weight: 400;
+        color: #64FFDA;
+        font-family: 'Roboto Mono', monospace;
+        @media screen and (max-width: 700px){
+            font-size: 4.5vw;
+        }
+        @media screen and (min-width: 1000px){
+            font-size: 1.5vw;
+        }
+    }
+    .text2{
+        font-size: 7vw;
+        font-weight: 600;
+        color: #CCD6F6;
+        margin-top: 20px;
+        @media screen and (max-width: 700px){
+            font-size: 9vw;
+            margin-bottom: 3%;
+        }
+        @media screen and (min-width: 1000px){
+            font-size: 5vw;
+        }
+    }
+    .text3{
+        font-size: 7vw;
+        font-weight: 600;
+        color: #8892B0;
+        margin-bottom: 20px;
+        @media screen and (max-width: 700px){
+            font-size: 9vw;
+            margin-bottom: 3%;
+        }
+        @media screen and (min-width: 1000px){
+            font-size: 5vw;
+        }
+    }
+    .text4{
+        font-size: 2.2vw;
+        font-weight: 400;
+        color: #8892B0;
+        //letter-spacing: -1px;
+        line-height: 3.2vw;
+        width: 80%;
+        @media screen and (max-width: 700px){
+            font-size: 3.8vw;
+            line-height: 5vw;
+            width: 100%;
+            margin-top: 2vh;
+            margin-bottom: 4vh;
+        }
+        @media screen and (min-width: 1000px){
+            font-size: 1.3vw;
+            line-height: 2vw;
+            width: 60%;
+        }
+    }
+    .resume{
+        width: fit-content;
+        background-color: inherit;
+        color: #64FFDA;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: 1px solid #64FFDA;
+        font-family: 'Roboto Mono', monospace;
+        margin-top: 5%;
+        @media screen and (max-width: 700px){
+            font-size: 4vw;
+            padding: 15px 20px;
+        }
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+            background-color: #64ffdb27;
+        }
+        &:not(:hover){
+            transition: 0.5s;
+        }
+    }
+}

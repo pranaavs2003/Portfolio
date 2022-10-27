@@ -1,0 +1,8 @@
+.content{
+    height: 90vh;
+    width: 70vw;
+    //background-color: rgba(0, 255, 255, 0.452);
+    @media screen and (max-width: 700px) {
+        width: 85vw;
+    }
+}

@@ -1,0 +1,40 @@
+.rightSidebar{
+    @media screen and (max-width: 700px){
+        display: none;
+    }
+    display: flex;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 100vh;
+    background-color: rgba(255, 127, 172, 0);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding-right: 2%;
+    .email__container{
+        color: #CCD6F6;
+        writing-mode: vertical-rl;
+        font-size: 13px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: 0.5s;
+        font-family: 'Roboto Mono', monospace;
+        &:hover{
+            color: #64FFDA;
+            padding-bottom: 10px;
+        }
+        &:not(:hover){
+            transition: 0.5s;
+        }
+    }
+    .line__container{
+        width: 2px;
+        height: 15vh;
+        background-color: #CCD6F6;
+        border-radius: 2px;
+    }
+}

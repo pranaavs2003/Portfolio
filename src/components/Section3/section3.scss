@@ -1,0 +1,43 @@
+.section3{
+    height: 80vh;
+    width: 70%;
+    background-color: rgba(255, 228, 196, 0.134);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .top__container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .line{
+            height: 0.1px;
+            //background-color: #9fa9c953;
+            width: 20%;
+            @media screen and (max-width: 1000px){
+                width: 55%;
+            }
+        }
+        .count{
+            color: #64FFDA;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 22px;
+            margin-right: 5px;
+            margin-left: 20px;
+        }
+        .title__text{
+            color: #CCD6F6;
+            font-size: 26px;
+            font-weight: 600;
+            margin-right: 20px;
+        }
+    }
+    .content__container{
+        margin-top: 50px;
+        background-color: rgba(165, 42, 42, 0.244);
+        width: 80%;
+        height: 80vh;
+    }
+}
