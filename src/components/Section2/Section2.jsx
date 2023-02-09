@@ -11,14 +11,36 @@ export default function Section2() {
       </div>
       <div className="content">
         <div className="left__container">
-          <div className="text__content">Hello! My name is <span className="highlight">Pranaav</span> and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about <span className="highlight">HTML & CSS!</span></div>
-          <div className="text__content">Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</div>
-          <div className="text__content">I also recently launched a course that covers everything you need to build a web app with the <span className="highlight">Spotify API using Node & React</span>.</div>
+          <div className="text__content">
+            Hello! My name is <span className="highlight">Pranaav</span> and I
+            enjoy creating things that live on the internet. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Dolore deserunt at veritatis,
+            vero iste tempora. Sequi cumque fugit amet ab eum, explicabo
+            aliquid, nihil repellat magnam recusandae nostrum
+            <span className="highlight">HTML & CSS!</span>
+          </div>
+          <div className="text__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            deserunt at veritatis, vero iste tempora. Sequi cumque fugit amet ab
+            eum, explicabo aliquid, nihil repellat magnam recusandae nostrum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            deserunt at veritatis, vero iste tempora. Sequi cumque fugit amet ab
+            eum, explicabo aliquid, nihil repellat magnam recusandae nostrum.
+          </div>
+          <div className="text__content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            deserunt at veritatis, vero iste tempora. Sequi cumque fugit amet ab
+            eum, explicabo aliquid, nihil repellat magnam recusandae nostru
+            <span className="highlight">Spotify API using Node & React</span>.
+          </div>
         </div>
         <div className="right__container">
           <div className="image__container">
             <div className="image__overlay">
-              <img src="https://brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif" alt="profile-img" className="my__image" />
+              <img
+                src="https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg"
+                className="my__image"
+              />
             </div>
           </div>
         </div>

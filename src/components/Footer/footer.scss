@@ -1,0 +1,37 @@
+.footer{
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    color: #9da8cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 700px){
+        
+    }
+    .top__text{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.9vw;
+        margin-bottom: 1vh;
+        @media screen and (max-width: 1000px){
+            font-size: 2vw;
+            margin-bottom: 2vh;
+        }
+        @media screen and (max-width: 700px){
+            font-size: 3vw;
+            margin-bottom: 2vh;
+        }
+    }
+    .icon__container{
+        .item{
+            cursor: pointer;
+            &:hover{
+                color: #64FFDA;
+                transition: 0.5s;
+            }
+            &:not(:hover){
+                transition: 0.5s;
+            }
+        }
+    }
+}

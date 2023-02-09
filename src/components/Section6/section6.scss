@@ -1,0 +1,85 @@
+.section6{
+    height: 60vh;
+    width: 60%;
+    //background-color: rgba(255, 228, 196, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 700px){
+        width: 85%;
+        margin-top: 220vh;
+        //margin-bottom: 10vh;
+        //background-color: #64FFDA;
+    }
+    .text1{
+        font-family: 'Roboto Mono', monospace;
+        color: #64FFDA;
+        font-size: 1.3vw;
+        margin-bottom: 3vh;
+        @media screen and (max-width: 1000px){
+            font-size: 3vw;
+        }
+        @media screen and (max-width: 700px){
+            font-size: 4vw;
+            margin-bottom: 1vh;
+        }
+    }
+    .text2{
+        font-size: 4vw;
+        font-weight: 600;
+        color: #CCD6F6;
+        margin-bottom: 4vh;
+        @media screen and (max-width: 1000px){
+            font-size: 9vw;
+            margin-bottom: 3vh;
+        }
+        @media screen and (max-width: 700px){
+            font-size: 12vw;
+            margin-bottom: 4vh;
+        }
+    }
+    .text3{
+        width: 60%;
+        font-size: 1.1vw;
+        font-weight: 400;
+        color: #8892B0;
+        text-align: center;
+        line-height: 3.5vh;
+        margin-bottom: 8vh;
+        @media screen and (max-width: 1000px){
+            font-size: 3vw;
+            width: 110%;
+        }
+        @media screen and (max-width: 700px){
+            font-size: 4vw;
+            width: 100%;
+            margin-bottom: 4vh;
+        }
+    }
+    .contact__me{
+        font-family: 'Roboto Mono', monospace;
+        color: #64FFDA;
+        background-color: inherit;
+        border: 1px solid #64FFDA;
+        padding: 15px 25px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        @media screen and (max-width: 1000px){
+            font-size: 3.5vw;
+            padding: 3vw 4vw;
+        }
+        @media screen and (max-width: 700px){
+            font-size: 3.5vw;
+            padding: 5vw 6vw;
+        }
+        &:hover{
+            background-color: #64ffdb27;
+            transition: 0.3s ease-in;
+        }
+        &:not(:hover){
+            transition: 0.3s ease-out;
+        }
+    }
+}

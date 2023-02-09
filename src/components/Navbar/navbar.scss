@@ -10,6 +10,9 @@
     z-index: 1;
     background-color: #0a192fa7;
     backdrop-filter: blur(5px);
+    @media screen and (max-width: 700px) {
+        height: 10vh;
+    }
     .navbar__container{
         width: 90%;
         color: white;
@@ -20,8 +23,11 @@
         justify-content: space-between;
         .left__container{
             .logo{
-                height: 50px;
                 aspect-ratio: 1;
+                height: 50px;
+                @media screen and (max-width: 700px) {
+                    height: 5vh;
+                }
             }
         }
         .hamburger__icon{

@@ -1,5 +1,5 @@
 .section2{
-    height: 70vh;
+    height: fit-content;
     width: 60%;
     //background-color: rgba(255, 228, 196, 0.233);
     display: flex;
@@ -8,11 +8,16 @@
     @media screen and (max-width: 1000px){
         //gap: 10px;
         width: 85%;
-        margin-bottom: 80vh;
+        //margin-bottom: 80vh;
+    }
+    @media screen and (max-width: 700px){
+        //gap: 10px;
+        width: 85%;
+        margin-bottom: 20vh;
     }
     @media screen and (min-width: 700px){
         width: 70%;
-        margin-bottom: 20vh;       
+        //margin-bottom: 20vh;       
     }
     .title{
         display: flex;
@@ -102,13 +107,26 @@
                     left: 20px;
                     border-radius: 5px;
                     border: 2px solid #64FFDA;
+                    @media screen and (max-width: 1000px){
+                        width: 250px;
+                        height: 250px;
+                        top: 80px;
+                        left: 30px;
+                    }
+                    @media screen and (max-width: 700px){
+                        display: none;
+                    }
                 }
                 .image__overlay{
                     //background-color: #64FFDA;
                     .my__image{
                         height: 300px;
-                        width: 300px;
+                        aspect-ratio: 1;
                         border-radius: 5px;
+                        @media screen and (max-width: 1000px){
+                            height: 250px;
+                            margin-top: 5vh;
+                        }
                     }
                 }
             }
